@@ -1,7 +1,7 @@
 [
   {
     "id": "doc_001",
-    "image": "https://picsum.photos/seed/doctor1/200/200",
+    "image": "./Doctors/doctors-day-handsome-brunette-cute-guy-medical-gown-with-crossed-hands.jpg",
     "name": "Dr. Ayesha Rahman",
     "education": "MBBS, FCPS (Medicine)",
     "speciality": "Internal Medicine",
@@ -14,7 +14,7 @@
   },
   {
     "id": "doc_002",
-    "image": "https://picsum.photos/seed/doctor2/200/200",
+    "image": "./Doctors/handsome-young-male-doctor-with-stethoscope-standing-against-blue-background.jpg",
     "name": "Dr. Tanvir Hossain",
     "education": "MBBS, MS (Orthopaedics)",
     "speciality": "Orthopaedic Surgery",
@@ -27,7 +27,7 @@
   },
   {
     "id": "doc_003",
-    "image": "https://picsum.photos/seed/doctor3/200/200",
+    "image": "./Doctors/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture.jpg",
     "name": "Dr. Naila Sultana",
     "education": "MBBS, MPH",
     "speciality": "Community Medicine",
@@ -40,8 +40,8 @@
   },
   {
     "id": "doc_004",
-    "image": "https://picsum.photos/seed/doctor4/200/200",
-    "name": "Dr. Imran Karim",
+    "image": "./Doctors/portrait-beautiful-brunette-nurse-isolated-black.jpg",
+    "name": "Dr. Farhana Begum",
     "education": "MBBS, MD (Cardiology)",
     "speciality": "Cardiology",
     "experience_years": 15,
@@ -53,8 +53,8 @@
   },
   {
     "id": "doc_005",
-    "image": "https://picsum.photos/seed/doctor5/200/200",
-    "name": "Dr. Farhana Begum",
+    "image": "./Doctors/portrait-man-wearing-medical-gown-holding-clipboard.jpg",
+    "name": "Dr. Imran Karim",
     "education": "MBBS, DGO",
     "speciality": "Obstetrics & Gynaecology",
     "experience_years": 10,
@@ -66,7 +66,7 @@
   },
   {
     "id": "doc_006",
-    "image": "https://picsum.photos/seed/doctor6/200/200",
+    "image": "./Doctors/portrait-smiling-male-doctor.jpg",
     "name": "Dr. Rashed Khan",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurology",
@@ -79,7 +79,7 @@
   },
   {
     "id": "doc_007",
-    "image": "https://picsum.photos/seed/doctor7/200/200",
+    "image": "./Doctors/portrait-smiling-young-woman-doctor-healthcare-medical-worker-pointing-fingers-left-showing-clini.jpg",
     "name": "Dr. Leena Chowdhury",
     "education": "MBBS, FCPS (Paediatrics)",
     "speciality": "Paediatrics",
@@ -92,7 +92,7 @@
   },
   {
     "id": "doc_008",
-    "image": "https://picsum.photos/seed/doctor8/200/200",
+    "image": "./Doctors/young-doctor-getting-ready-work.jpg",
     "name": "Dr. Mridul Sen",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT (Otorhinolaryngology)",
@@ -105,7 +105,7 @@
   },
   {
     "id": "doc_009",
-    "image": "https://picsum.photos/seed/doctor9/200/200",
+    "image": "./Doctors/young-handsome-physician-medical-robe-with-stethoscope.jpg",
     "name": "Dr. Sabiha Noor",
     "education": "MBBS, DCP",
     "speciality": "Clinical Pathology",
@@ -118,7 +118,7 @@
   },
   {
     "id": "doc_010",
-    "image": "https://picsum.photos/seed/doctor10/200/200",
+    "image": "./Doctors/portrait-beautiful-brunette-nurse-isolated-black.jpg",
     "name": "Dr. Mahfuz Alam",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatology & Venereology",
