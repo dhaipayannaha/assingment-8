@@ -4,6 +4,9 @@ import Root from '../Pages/Root/Root';
 import ErrorPage from '../Pages/Error/ErrorPage';
 import Home from '../Pages/Home/Home';
 import DoctorDetails from '../Pages/DoctorDetails/DoctorDetails';
+import Bookings from '../Pages/Booking/Bookings';
+
+
 
 export const router = createBrowserRouter([
     {
@@ -13,14 +16,31 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch('doctorData.json'),
-                path:'/',
+                loader: async () => {
+                    const res = await fetch('/doctorData.json');
+                    if (!res.ok) throw new Error('Failed to fetch doctor data');
+                    return res.json();
+                },
+                path: '/',
                 Component: Home
             },
             {
                 path: '/doctorDetails/:id',
-                loader: () => fetch('doctorData.json'),
+                loader: async () => {
+                    const res = await fetch('/doctorData.json');
+                    if (!res.ok) throw new Error('Failed to fetch doctor data');
+                    return res.json();
+                },
                 Component: DoctorDetails
+            },
+            {
+                path: '/bookings',
+                loader: async () => {
+                    const res = await fetch('/doctorData.json');
+                    if (!res.ok) throw new Error('Failed to fetch doctor data');
+                    return res.json();
+                },
+                Component: Bookings
             }
         ]
     }

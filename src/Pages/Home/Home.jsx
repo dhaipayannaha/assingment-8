@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Banner setName={setName}></Banner>
-            <Doctors data={data} name={name}></Doctors>
+            <Doctors data={data} name={name} setName={setName}></Doctors>
             <Rating></Rating>
         </div>
     );

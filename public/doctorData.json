@@ -1,6 +1,9 @@
 [
   {
     "id": "doc_001",
+    "fee": "340",
+    "available": ["Saturday", "Friday", "Thursday"],
+    "working_at": "Dhaka Medical College Hospital,Dhaka",
     "image": "./Doctors/doctors-day-handsome-brunette-cute-guy-medical-gown-with-crossed-hands.jpg",
     "name": "Dr. Ayesha Rahman",
     "education": "MBBS, FCPS (Medicine)",
@@ -14,6 +17,9 @@
   },
   {
     "id": "doc_002",
+    "fee": "750",
+    "available": ["Monday", "friday"],
+    "working_at": "Bangabandhu Sheikh Mujib Medical University (BSMMU) Hospital,Dhaka",
     "image": "./Doctors/handsome-young-male-doctor-with-stethoscope-standing-against-blue-background.jpg",
     "name": "Dr. Tanvir Hossain",
     "education": "MBBS, MS (Orthopaedics)",
@@ -27,6 +33,9 @@
   },
   {
     "id": "doc_003",
+    "fee": "560",
+    "available": ["Sunday", "Tuesday", "Thursday", "Saturday"],
+    "working_at": "Square Hospital Ltd.,Dhaka (private)",
     "image": "./Doctors/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture.jpg",
     "name": "Dr. Naila Sultana",
     "education": "MBBS, MPH",
@@ -40,6 +49,9 @@
   },
   {
     "id": "doc_004",
+    "fee": "570",
+    "available": ["Monday"],
+    "working_at": "United Hospital Limited,Dhaka (private)",
     "image": "./Doctors/portrait-beautiful-brunette-nurse-isolated-black.jpg",
     "name": "Dr. Farhana Begum",
     "education": "MBBS, MD (Cardiology)",
@@ -53,6 +65,9 @@
   },
   {
     "id": "doc_005",
+    "fee": "680",
+    "available": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+    "working_at": "Evercare Hospital Dhaka (formerly Apollo),Dhaka (private)",
     "image": "./Doctors/portrait-man-wearing-medical-gown-holding-clipboard.jpg",
     "name": "Dr. Imran Karim",
     "education": "MBBS, DGO",
@@ -66,6 +81,9 @@
   },
   {
     "id": "doc_006",
+    "fee": "240",
+    "available": ["Friday", "Monday", "Thursday"],
+    "working_at": "BIRDEM General Hospital,Dhaka (specialised in diabetes & endocrine)",
     "image": "./Doctors/portrait-smiling-male-doctor.jpg",
     "name": "Dr. Rashed Khan",
     "education": "MBBS, MD (Neurology)",
@@ -79,6 +97,9 @@
   },
   {
     "id": "doc_007",
+    "fee": "740",
+    "available": ["Monday", "Thursday"],
+    "working_at": "Dhaka Shishu (Children) Hospital,Dhaka (children's hospital)",
     "image": "./Doctors/portrait-smiling-young-woman-doctor-healthcare-medical-worker-pointing-fingers-left-showing-clini.jpg",
     "name": "Dr. Leena Chowdhury",
     "education": "MBBS, FCPS (Paediatrics)",
@@ -92,6 +113,9 @@
   },
   {
     "id": "doc_008",
+    "fee": "450",
+    "available": ["Saturday", "Thursday", "Tuesday"],
+    "working_at": "Chittagong Medical College Hospital,Chittagong",
     "image": "./Doctors/young-doctor-getting-ready-work.jpg",
     "name": "Dr. Mridul Sen",
     "education": "MBBS, MS (ENT)",
@@ -105,6 +129,9 @@
   },
   {
     "id": "doc_009",
+    "fee": "870",
+    "available": ["Wednesday", "Sunday", "Friday", "Saturday"],
+    "working_at": "National Institute of Burn and Plastic Surgery,Dhaka",
     "image": "./Doctors/young-handsome-physician-medical-robe-with-stethoscope.jpg",
     "name": "Dr. Sabiha Noor",
     "education": "MBBS, DCP",
@@ -118,6 +145,9 @@
   },
   {
     "id": "doc_010",
+    "fee": "950",
+    "available": ["Sunday", "Saturday", "Monday"],
+    "working_at": "BIRDEM General Hospital,Dhaka (specialised in diabetes & endocrine)",
     "image": "./Doctors/portrait-beautiful-brunette-nurse-isolated-black.jpg",
     "name": "Dr. Mahfuz Alam",
     "education": "MBBS, MD (Dermatology)",

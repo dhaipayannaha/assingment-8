@@ -1,7 +1,14 @@
 import React from 'react';
 import logo from '../../assets/fi_16340199.png';
+import { Link } from 'react-router';
 
 const Navbar = () => {
+    const links = <>
+    <Link to='/'><li className='text-[18px] text-[#0F0F0F]'>Home</li></Link>
+    <Link to='/bookings'><li className='text-[18px] text-[#0F0F0F]'>My-Bookings</li></Link>
+    <Link to='/readList'><li className='text-[18px] text-[#0F0F0F]'>Blogs</li></Link>
+    <Link to='/readList'><li className='text-[18px] text-[#0F0F0F]'>Contact Us</li></Link>
+    </>
     return (
         <section className=' bg-[#EFEFEF]'>
             <div className='max-w-[1268px] mx-auto flex items-center gap-2 py-5 justify-between'>
@@ -11,10 +18,9 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul className='flex gap-12'>
-                        <li className='text-[18px] text-[#0F0F0F]'>Home</li>
-                        <li className='text-[18px] text-[#0F0F0F]'>My-Bookings</li>
-                        <li className='text-[18px] text-[#0F0F0F]'>Blogs</li>
-                        <li className='text-[18px] text-[#0F0F0F]'>Contact Us</li>
+                        {
+                            links
+                        }
                     </ul>
                 </div>
                 <div>
