@@ -5,6 +5,7 @@ import ErrorPage from '../Pages/Error/ErrorPage';
 import Home from '../Pages/Home/Home';
 import DoctorDetails from '../Pages/DoctorDetails/DoctorDetails';
 import Bookings from '../Pages/Booking/Bookings';
+import Blogs from '../Pages/Blog/Blogs';
 
 
 
@@ -41,6 +42,15 @@ export const router = createBrowserRouter([
                     return res.json();
                 },
                 Component: Bookings
+            },
+            {
+                path: '/blogs',
+                loader: async () => {
+                    const res = await fetch('/reactQuestion.json');
+                    if (!res.ok) throw new Error('Failed to fetch doctor data');
+                    return res.json();
+                },
+                Component: Blogs
             }
         ]
     }

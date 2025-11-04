@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from '../../assets/fi_16340199.png';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <>
-    <Link to='/'><li className='text-[18px] text-[#0F0F0F]'>Home</li></Link>
-    <Link to='/bookings'><li className='text-[18px] text-[#0F0F0F]'>My-Bookings</li></Link>
-    <Link to='/readList'><li className='text-[18px] text-[#0F0F0F]'>Blogs</li></Link>
-    <Link to='/readList'><li className='text-[18px] text-[#0F0F0F]'>Contact Us</li></Link>
+    <NavLink to='/' className={({isActive}) => (isActive ? 'bg-[#e8f0fd] text-[#176AE5] border px-2 rounded-2xl font-semibold' : '')}><li className='text-[18px]'>Home</li></NavLink>
+    <NavLink to='/bookings' className={({isActive}) => (isActive ? 'bg-[#e8f0fd] text-[#176AE5] border px-2 rounded-2xl font-semibold' : '')}><li className='text-[18px] '>My-Bookings</li></NavLink>
+
+    <NavLink to='/blogs' className={({isActive}) => (isActive ? 'bg-[#e8f0fd] text-[#176AE5] border px-2 rounded-2xl font-semibold' : '')}><li className='text-[18px] '>Blogs</li></NavLink>
+    <NavLink to='/contractUs' className={({isActive}) => (isActive ? 'bg-[#e8f0fd] text-[#176AE5] border px-2 rounded-2xl font-semibold' : '')}><li className='text-[18px]'>Contact Us</li></NavLink>
     </>
     return (
         <section className=' bg-[#EFEFEF]'>

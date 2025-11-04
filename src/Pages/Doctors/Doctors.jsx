@@ -1,5 +1,6 @@
 import React, { Suspense, useState } from 'react';
 import Doctor from '../Doctor/Doctor';
+import errorMassage from '../../assets/cute-sad-robot-404-error-page-illustration-website-app-design_1278010-4192.avif'
 
 const Doctors = ({ data, name, setName }) => {
 
@@ -44,8 +45,12 @@ const handleReset = () =>{
                         </>
                     ) : (
                         <div>
+                            <div className='flex justify-center rounded-2xl'>
+                                <img className='rounded-4xl mb-5' src={errorMassage} alt="" />
+                            </div>
                             <p className="text-center text-gray-500 text-lg">
-                            No doctors found matching "<b>{name}</b>" 😕
+                                
+                            No doctors found matching "<b>{name}</b>" 
                         </p>
                         <div className='flex justify-center mt-4'>
                             <button onClick={handleReset} className='text-[20px] font-medium px-[30px] py-[15.5px]  text-white bg-[#176AE5] rounded-4xl '> back to data</button>
@@ -53,14 +58,7 @@ const handleReset = () =>{
                         </div>
                         
                     )}
-                    {/* <div className='grid grid-cols-3 gap-6'>
-                        {
-                            visibleDoctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}></Doctor>)
-                        }
-                    </div>
-                    <div className='flex justify-center pt-12'>
-                        <button onClick={() => setShowAll(!showAll)} className='text-[20px] font-medium px-[30px] py-[15.5px]  text-white bg-[#176AE5] rounded-4xl '>{showAll ? 'View Less' : 'View All Doctors'}</button>
-                    </div> */}
+                    
                 </Suspense>
 
 
